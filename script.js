@@ -1,3 +1,9 @@
+// $(document).ready(function(){
+// 	//Javascript-y things here;
+// });
+
+$(document).ready(function()){
+
 $('.listItem').mouseenter(function(){
 	$( this ).fadeTo('slow', 0.25);
 });
@@ -11,5 +17,7 @@ $('.listItem').click(function(){
 
 $('.listItem').click(function(){
 	$( this ).html('<a href="http//www.google.com">Clicked</a>');
+});
+
 });
 
