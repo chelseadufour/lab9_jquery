@@ -1,0 +1,22 @@
+
+#navBar {
+	font-family: Futura;
+	height: 200px;
+	margin-top: 150px;
+}
+
+#navList {
+	text-align: center;
+	height: 160px;
+}
+
+.listItem {
+	list-style-type: none;
+	background-color: #c0c0c0;
+	display: inline;
+	border: solid black 2px;
+	margin-right: 50px;
+	padding: 15px;
+}
+
+
